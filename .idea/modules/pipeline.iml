@@ -23,6 +23,8 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.3.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.3.5:jar" level="project" />
     <orderEntry type="library" name="sbt: com.clearspring.analytics:stream:2.9.6:jar" level="project" />
     <orderEntry type="library" name="sbt: com.esotericsoftware:kryo-shaded:4.0.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.esotericsoftware:minlog:1.3.0:jar" level="project" />
@@ -42,6 +44,7 @@
     <orderEntry type="library" name="sbt: com.thoughtworks.paranamer:paranamer:2.8:jar" level="project" />
     <orderEntry type="library" name="sbt: com.twitter:chill-java:0.10.0:jar" level="project" />
     <orderEntry type="library" name="sbt: com.twitter:chill_2.13:0.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.scala-logging:scala-logging_2.13:3.9.5:jar" level="project" />
     <orderEntry type="library" name="sbt: com.univocity:univocity-parsers:2.9.1:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-codec:commons-codec:1.16.0:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-collections:commons-collections:3.2.2:jar" level="project" />
@@ -78,6 +81,8 @@
     <orderEntry type="library" name="sbt: jakarta.ws.rs:jakarta.ws.rs-api:2.1.6:jar" level="project" />
     <orderEntry type="library" name="sbt: javax.activation:activation:1.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: joda-time:joda-time:2.12.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: net.bytebuddy:byte-buddy-agent:1.14.11:jar" level="project" />
+    <orderEntry type="library" name="sbt: net.bytebuddy:byte-buddy:1.14.11:jar" level="project" />
     <orderEntry type="library" name="sbt: net.razorvine:pickle:1.3:jar" level="project" />
     <orderEntry type="library" name="sbt: net.sf.py4j:py4j:0.10.9.7:jar" level="project" />
     <orderEntry type="library" name="sbt: org.antlr:antlr4-runtime:4.9.3:jar" level="project" />
@@ -155,7 +160,9 @@
     <orderEntry type="library" name="sbt: org.json4s:json4s-native_2.13:3.6.12:jar" level="project" />
     <orderEntry type="library" name="sbt: org.json4s:json4s-scalap_2.13:3.7.0-M11:jar" level="project" />
     <orderEntry type="library" name="sbt: org.lz4:lz4-java:1.8.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.objenesis:objenesis:2.5.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.mockito:mockito-core:5.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.mockito:mockito-scala_2.13:1.16.42:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.objenesis:objenesis:3.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:RoaringBitmap:0.9.45:jar" level="project" />
     <orderEntry type="library" name="sbt: org.roaringbitmap:shims:0.9.45:jar" level="project" />
     <orderEntry type="library" name="sbt: org.rocksdb:rocksdbjni:8.3.2:jar" level="project" />
@@ -164,6 +171,22 @@
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-xml_2.13:2.1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.12:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalactic:scalactic_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-compatible:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-core_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-diagrams_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-featurespec_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-flatspec_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-freespec_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-funspec_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-funsuite_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-matchers-core_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-mustmatchers_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-propspec_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-refspec_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-shouldmatchers_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest-wordspec_2.13:3.2.18:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatest:scalatest_2.13:3.2.18:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:jcl-over-slf4j:2.0.7:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:jul-to-slf4j:2.0.7:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:2.0.7:jar" level="project" />
@@ -171,5 +194,6 @@
     <orderEntry type="library" name="sbt: org.tukaani:xz:1.9:jar" level="project" />
     <orderEntry type="library" name="sbt: org.xerial.snappy:snappy-java:1.1.10.3:jar" level="project" />
     <orderEntry type="library" name="sbt: oro:oro:2.0.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: ru.vyarus:generics-resolver:3.0.3:jar" level="project" />
   </component>
 </module>
