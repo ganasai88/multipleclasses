@@ -1,14 +1,14 @@
 {
   "file_input": [
     {
-      "source_type": "local",
+      "source_type": "S3Bucket",
       "table_name": "my_table",
-      "path": "C:\\Users\\ganas\\NewScala\\multipleclasses\\data\\file2.csv"
+      "path": "s3a://pandaspractice/videos.csv"
     },
     {
       "source_type": "local",
       "table_name": "my_table_1",
-      "path": "C:\\Users\\ganas\\NewScala\\multipleclasses\\data\\file1.csv"
+      "path": "C:\\Users\\ganas\\NewScala\\multipleclasses\\data\\file2.csv"
     }
   ],
   "transform": [
@@ -23,14 +23,14 @@
   ],
   "file_write":[
     {
-      "source_type": "local",
+      "source_type": "S3Bucket",
       "table_name":"result_1",
-      "file_output":"C:\\Users\\ganas\\NewScala\\multipleclasses\\data\\output.csv"
+      "file_output":"s3a://writebucketspark/output/"
     },
     {
       "source_type": "local",
       "table_name":"result_2",
-      "file_output":"C:\\Users\\ganas\\NewScala\\multipleclasses\\data\\output.csv"
+      "file_output":"C:\\Users\\ganas\\NewScala\\multipleclasses\\data\\output"
     }
   ]
 }
